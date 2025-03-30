@@ -1,0 +1,99 @@
+html,body {
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    position:absolute;
+    background: url(9.jpeg) 3100px 9000px;
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+  }
+  .container  {
+    width:100%;
+    height:100%;
+    position:absolute;
+  }
+  #blurCanvasTop{
+    position:absolute;
+  }
+  #blurCanvasBottom{
+    left:30%;
+    top:0;
+    position:absolute;
+  }
+  .content {
+    left:15%;
+    top:20%;
+    width:70%;
+    position:relative;
+  }
+  
+  .blur {
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+  }
+  .blurTop{
+    left:40%;
+    top:-110%;
+    transform:rotate(20deg);
+    transform-origin: 0 100%;
+  }
+  .blurBottom{
+    left:-60%;
+    top:100%;
+    transform:rotate(20deg);
+    transform-origin: 100% 0%;
+  }
+
+.awal{
+    font-size: 30px;
+    color: yellow;
+    font-family: Raleway;
+}
+
+.ucap{
+    font-size: 30px;
+    color: black;
+    font-family: Raleway;
+}
+
+.intro{
+    font-size: 30px;
+    color: white;
+    font-family: forte;
+}
+
+.quote{
+    font-size: 20px;
+    color: white;
+    font-family: Raleway;
+}
+
+.blockquote-footer{
+    font-size: 20px;
+    color: white;
+    font-family: Raleway;
+}
+
+  @media (min-width: 576px) {
+      .awal{
+          font-size: 250%;
+      }
+
+      .ucap{
+          font-size: 75%;
+      }
+
+      .intro{
+          font-size: 100%;
+      }
+
+      .quote{
+        font-size: 30px;
+        font-style: bold;
+    }
+
+    .blockquote-footer{
+        font-size: 30px;
+    }
+  }
