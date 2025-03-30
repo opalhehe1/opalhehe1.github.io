@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Idul Fitri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url(7.jpeg);
+            min-height: 100vh;
+            background-attachment: fixed;
+            font-family: 'Amiri', serif;
+        }
+        .moon {
+            animation: float 6s ease-in-out infinite;
+        }
+        .lantern {
+            animation: swing 3s ease-in-out infinite;
+            transform-origin: top center;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        @keyframes swing {
+            0% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+            100% { transform: rotate(-5deg); }
+        }
+        .arabic-text {
+            direction: rtl;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center text-white">
+    <div class="absolute top-0 left-0 right-0 flex justify-between px-8 py-4">
+        <i class="fas fa-star text-yellow-300 text-xl"></i>
+        <i class="fas fa-star text-yellow-300 text-xl"></i>
+    </div>
+
+    <div class="text-center max-w-4xl px-4 py-12 relative">
+        <div class="lantern absolute -left-4 top-0 text-4xl text-yellow-300">
+            <i class="fas fa-lightbulb"></i>
+        </div>
+        <div class="lantern absolute -right-4 top-0 text-4xl text-yellow-300">
+            <i class="fas fa-lightbulb"></i>
+        </div>
+
+        <div class="moon text-8xl mb-6">
+            <i class="fas fa-moon text-yellow-300"></i>
+        </div>
+         <h3 class="text-2xl md:text-2xl font-bold mb-6">Kami Segenap Keluarga Besar Alm. Bpk Rosyadi Sudaryat dan Almh. Ibu R. Titien Nursari Mengucapkan :</h3>
+        <h1 class="text-5xl md:text-6xl font-bold mb-6 text-yellow-300">Selamat Hari Raya Idul Fitri</h1>
+        <h2 class="text-3xl md:text-4xl font-semibold mb-8">1446 H / 2025 M</h2>
+        
+        <div>
+            <p class="text-xl md:text-2xl mb-4">Minal 'Aidin wal-Faizin</p>
+            <p class="text-lg md:text-xl">Mohon Maaf Lahir dan Batin</p>
+        </div>
+
+        <div class="flex justify-center space-x-6 text-3xl mb-8">
+            <i class="fas fa-mosque text-yellow-300"></i>
+            <i class="fas fa-quran text-yellow-300"></i>
+            <i class="fas fa-praying-hands text-yellow-300"></i>
+        </div>
+
+        <div class="border-t border-white border-opacity-30 pt-6">
+            <p class="text-sm opacity-80">"Dengan penuh rasa syukur dan kebahagiaan, keluarga besar kami mengucapkan Selamat Hari Raya Idul Fitri. Semoga setiap langkah kita dipenuhi berkah, dan setiap kesalahan mendapat ampunan. Mohon maaf lahir dan batin, mari kita sambut hari kemenangan ini dengan hati yang lapang dan penuh cinta"</p>
+        </div>
+    </div>
+
+    <footer class="mt-auto py-6 text-center text-sm opacity-70">
+        <p>© 2025 - "Incu-incuan"</p>
+    </footer>
+</body>
+</html>
