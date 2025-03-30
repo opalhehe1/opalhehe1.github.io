@@ -79,7 +79,7 @@ html,body {
     font-family: Raleway;
 }
 
-  @media (min-width: 576px) {
+  @media screen and (max-width: 480px) {
       .awal{
           font-size: 250%;
       }
